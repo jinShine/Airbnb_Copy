@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print("fork test!")
+        //태형 :  ㄹㅇ너린어라ㅣㅓ라ㅣㄴ어리ㅏ너리나런이ㅏ
     }
 
     override func didReceiveMemoryWarning() {
