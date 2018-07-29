@@ -12,6 +12,7 @@
 		1566284A210DDD21003B0338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15662848210DDD21003B0338 /* Main.storyboard */; };
 		1566284C210DDD23003B0338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1566284B210DDD23003B0338 /* Assets.xcassets */; };
 		1566284F210DDD23003B0338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1566284D210DDD23003B0338 /* LaunchScreen.storyboard */; };
+		15662857210DF720003B0338 /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15662856210DF720003B0338 /* LoginView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1566284B210DDD23003B0338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1566284E210DDD23003B0338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15662850210DDD23003B0338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15662856210DF720003B0338 /* LoginView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				15662844210DDD21003B0338 /* AppDelegate.swift */,
 				15662846210DDD21003B0338 /* ViewController.swift */,
 				15662848210DDD21003B0338 /* Main.storyboard */,
+				15662856210DF720003B0338 /* LoginView.storyboard */,
 				1566284B210DDD23003B0338 /* Assets.xcassets */,
 				1566284D210DDD23003B0338 /* LaunchScreen.storyboard */,
 				15662850210DDD23003B0338 /* Info.plist */,
@@ -125,6 +128,7 @@
 				1566284F210DDD23003B0338 /* LaunchScreen.storyboard in Resources */,
 				1566284C210DDD23003B0338 /* Assets.xcassets in Resources */,
 				1566284A210DDD21003B0338 /* Main.storyboard in Resources */,
+				15662857210DF720003B0338 /* LoginView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
