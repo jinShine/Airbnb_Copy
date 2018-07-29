@@ -22,11 +22,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("fork test!")
         //태형 :  ㄹㅇ너린어라ㅣㅓ라ㅣㄴ어리ㅏ너리나런이ㅏ
+        
+        let button1: UIButton = UIButton(frame: CGRect(x: 100, y: 100, width: 200, height: 200))
+        button1.backgroundColor = UIColor.brown
+        button1.setTitle("요거 눌러봐", for: .normal)
+        self.view.addSubview(button1)
+        button1.addTarget(self, action: #selector(goLoginView), for: UIControlEvents.touchUpInside)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc func goLoginView() {
+        let storyboard = UIStoryboard(name: "LoginView", bundle: nil)
+        let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginVC")
+        present(loginVC, animated: true) {
+            print("LoginVC 이동 성공")
+        }
     }
 
 
