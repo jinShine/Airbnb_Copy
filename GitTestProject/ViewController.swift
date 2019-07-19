@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    //승진 : ㅁㄴ;ㅣ아럼;ㅣ나얼;ㅣ마넝ㄹ;ㅣ마ㅓㄴㅇ;ㅣ라ㅓㅁㄴ;ㅣ아럼;ㅣ나ㅓㅇ리;마ㅓㄴ이;라ㅓㅁ니;ㅇ라ㅓ
+    //Pull Request Test
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var valueTextField: UITextField!
     @IBOutlet weak var deleteItemTextField: UITextField!
